@@ -1,0 +1,19 @@
+.board{
+	width:900px;
+	height: 900px;
+	display:block;
+	margin:0 auto;
+}
+
+.board .square{
+	width: 296px;
+	height: 296px;
+	display:inline-block;
+	border:2px dashed #3BB9E3;
+}
+
+.board .square:hover{
+	border: 2px solid #3BB9E3;
+	transition: all ease 500ms;
+	
+}
